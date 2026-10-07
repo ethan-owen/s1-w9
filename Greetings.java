@@ -13,8 +13,9 @@ public class Greetings extends JPanel {
       easel.add (this);
       easel.setVisible (true);
    }
-	
+	// the method below controls what actually gets put on the screen
    public void paintComponent (Graphics g) {
       g.drawString ("Hi there!", 150, 200);	
+      g.drawRect(145, 188, 65, 13);
    }
 }
